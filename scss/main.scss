@@ -1,0 +1,237 @@
+@import "media";
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.logo__img {
+  max-width: 100px;
+  background-size: contain;
+}
+
+.header__link {
+  font-size: 21px;
+  text-transform: uppercase;
+  transition: all 1s;
+
+  &:hover {
+    color: red;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+}
+
+.button-nav path {
+  fill: blue;
+}
+
+.main {
+  margin-top: 28px;
+  margin-bottom: 30px;
+}
+
+.inner-images {
+  width: 290px;
+  border-radius: 30%;
+  transform: translateY(30px);
+}
+
+.main__title h1 {
+   margin-bottom: 28px;
+   font-size: 50px;
+}
+
+.main__title p {
+  font-size: 20px;
+}
+
+
+.contacts {
+  margin-bottom: 50px;
+}
+.contacts__title {
+  margin-top: 100px;
+  margin-bottom: 55px;
+
+}
+
+.title {
+  position: relative;
+  font-size: 30px;
+  padding: 18px 0;
+
+  &::before {
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 3px;
+    top: 0;
+    left: 50%;
+    content: "";
+    transform: translateX(-50%);
+  }
+
+  &::after {
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    content: "";
+    transform: translateX(-50%);
+  }
+}
+
+.education {
+  margin-bottom: 40px;
+}
+
+
+.education__text {
+  color: #FFFFFF;
+  margin-bottom: 55px;
+}
+
+.education__text-2 {
+  font-size: 25px;
+}
+
+.educ {
+  padding: 100px 0 100px 0;
+  margin-top: 35px;
+  font-size: 25px;
+  background-image: url(https://referatdb.ru/pars_docs/refs/251/250659/250659_html_m1033c825.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(34, 37, 51, 0.4);
+    z-index: -1;
+  }
+}
+
+
+
+.skills {
+  margin-bottom: 40px;
+}
+
+.skills__title {
+  margin-bottom: 35px;
+  font-size: 39px;
+}
+
+.skills__inner ul {
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 22px;
+  
+}
+
+.skills__inner li{
+  padding-bottom: 10px;
+  color: black;
+  background-color: yellow;
+}
+
+.language {
+  margin-bottom: 68px;
+}
+
+.language__title {
+  margin-bottom: 60px;
+}
+
+.language__inner h3 {
+  font-size: 25px;
+  color: #FFFFFF;
+
+  
+}
+
+.kg {
+  padding: 100px 0;
+  background-image: url(https://www.advantour.com/img/kyrgyzstan/symbolics/kyrgyzstan-flag.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ru {
+  padding: 100px 0;
+  background-image: url(https://www.samddn.ru/upload/iblock/acc/trikolor.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.amer {
+  padding: 100px 0;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e2/Flag_of_the_United_States_%28Pantone%29.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.code__inner code {
+  border: 1px dashed blue;
+  color: black;
+  
+}
+
+.portfolio {
+  margin-bottom: 35px;
+}
+
+.portfolio__title {
+  margin-bottom: 50px;
+}
+
+.portfolio__img {
+  width: 70%;
+  object-fit: cover;
+  border-radius: 30%;
+  margin-bottom: 25px;
+}
+
+.portfolio__link {
+  margin-top: 10px;
+  background-color: aqua;
+  font-size: 20px;
+}
+
+.footer {
+  padding: 35px 0;
+  margin-bottom: 30px;
+  background-image: url(https://kartinkin.net/uploads/posts/2021-04/1617577223_6-p-krasivii-fon-dlya-istorii-v-instagram-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__title {
+  color: #FFFFFF;
+}
